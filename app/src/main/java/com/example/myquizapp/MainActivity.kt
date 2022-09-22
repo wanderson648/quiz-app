@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(
                     this,
                     QuizQuestionActivity::class.java
-                ))
+                    ).putExtra(Constants.USER_NAME, etName.text.toString())
+                )
                 finish()
             }
         }
