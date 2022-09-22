@@ -73,10 +73,10 @@
 
             <Button
                 android:id="@+id/btn_start"
+                android:background="@drawable/default_option_border_bg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="@color/purple_700"
                 android:text="Start"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
